@@ -1,0 +1,52 @@
+.sidebar{
+    flex: 0.2;
+    /* background-color: maroon; */
+    
+}
+.home{
+    display :flex;
+    padding:10px;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.home__comment{
+    margin-left: 20px;
+    margin-bottom: 2px;
+    display:flex;
+    align-items: center;
+    flex:1;  
+    font-size: large !important; 
+    color: #606060; 
+    font-weight: 500;
+    font-size: 12px;
+}
+.home__icon{
+    color:gray;
+}
+.home:hover{
+    background-color: lightgrey;
+    
+}
+.home:hover>.home__icon{
+    color:rgb(22, 22, 100);
+    
+}
+.home:hover>.home__comment{
+    font-weight: bold;
+}
+
+.line{
+height:1px;
+border:0;
+background-color: lightgrey;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+        
+.as{
+    /* background-color: aquamarine; */
+    padding-top: 25px;
+    padding-right: 75px;
+}

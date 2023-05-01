@@ -1,0 +1,40 @@
+/* CSS for ElectionTable component */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    left:34px;
+    padding-top: 34px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ccc;
+  }
+  
+  .actions-cell {
+    width: 150px; /* Increase the width to make the action buttons wider */
+  }
+  
+  .actions-cell button {
+    margin-right: 5px;
+  }
+  
