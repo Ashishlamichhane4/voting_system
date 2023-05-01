@@ -1,0 +1,18 @@
+.cardArea{
+    width:250px;
+    height:250px;
+    background-color: rgb(214, 60, 60);
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    /* display: flex; */
+
+}
+.no{
+    font-size: 78px;
+    justify-content: center;
+}
+div>h2{
+    /* color: blue; */
+}
